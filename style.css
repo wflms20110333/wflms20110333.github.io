@@ -1,0 +1,60 @@
+/* Extra small devices (portrait phones, less than 576px)
+No media query for `xs` since this is the default in Bootstrap */
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+	.intro {
+		background: #fff url(imgs/intro_bkgd_3.jpg) no-repeat right center fixed;
+		background-size: cover;
+	    height: 650px;
+	}
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	.intro {
+		background: #fff url(imgs/intro_bkgd_2.jpg) no-repeat right center fixed;
+		background-size: cover;
+	    height: 650px;
+	}
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	.intro {
+		background: #fff url(imgs/intro_bkgd_1.jpg) no-repeat right center fixed;
+		background-size: cover;
+	    height: 750px;
+	}
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	display: inline-block;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 0px 16px 0px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	color: #111111;
+}
+
+.fa {
+	font-size: 28px;
+}
