@@ -58,3 +58,7 @@ li a:hover {
 .fa {
 	font-size: 28px;
 }
+
+.portfolio-img {
+	border-bottom: 1px dashed #d5d5d5;
+}
