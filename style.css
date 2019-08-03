@@ -66,3 +66,24 @@ li a:hover {
 .portfolio-img {
 	border-bottom: 1px dashed #d5d5d5;
 }
+
+.modal-header {
+	margin: 0 auto;
+	border-bottom: none;
+	padding-bottom: 8px; /* default 16px */
+}
+
+.modal-title {
+	text-decoration: underline;
+}
+
+.modal-body {
+	padding-top: 0px; /* default 16px */
+	padding-bottom: 0px; /* default 16px */
+}
+
+.modal-footer {
+	border-top: none;
+	padding-top: 12px; /* default 16px */
+	justify-content: space-between;
+}
