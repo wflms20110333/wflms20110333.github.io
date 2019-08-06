@@ -11,9 +11,9 @@
     <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/album/">
 
     <!-- Bootstrap core CSS -->
-	<link href="/bootstrap-4.3.1-dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<!-- Font Awesome CSS -->
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="/bootstrap-4.3.1-dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <style>
       .bd-placeholder-img {
@@ -38,455 +38,508 @@
   </head>
   <body>
     <header>
-  <div class="collapse bg-dark" id="navbarHeader">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-8 col-md-7 py-4">
-          <h4 class="text-white">About</h4>
-          <p class="text-muted">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
+      <div class="collapse bg-dark" id="navbarHeader">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-8 col-md-7 py-4">
+              <h4 class="text-white">About</h4>
+              <p class="text-muted">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
+            </div>
+            <div class="col-sm-4 offset-md-1 py-4">
+              <h4 class="text-white">Contact</h4>
+              <ul class="list-unstyled">
+                <li><a href="#" class="text-white">Follow on Twitter</a></li>
+                <li><a href="#" class="text-white">Like on Facebook</a></li>
+                <li><a href="#" class="text-white">Email me</a></li>
+              </ul>
+            </div>
+          </div>
         </div>
-        <div class="col-sm-4 offset-md-1 py-4">
-          <h4 class="text-white">Contact</h4>
-          <ul class="list-unstyled">
-            <li><a href="#" class="text-white">Follow on Twitter</a></li>
-            <li><a href="#" class="text-white">Like on Facebook</a></li>
-            <li><a href="#" class="text-white">Email me</a></li>
+      </div>
+      <div class="navbar navbar-dark bg-dark shadow-sm">
+        <div class="container d-flex justify-content-between">
+          <a href="#" class="navbar-brand d-flex align-items-center">
+            <img src="imgs/kick.png" alt="Kicking Logo" height="20" style="margin-right: 8px">
+            <strong>Elizabeth Zou</strong>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main role="main">
+
+      <section class="jumbotron intro">
+        <div class="container">
+          <h1 class="jumbotron-heading">Elizabeth Zou</h1>
+          <p class="lead text-muted">Hi! ~=[,,_,,]:3</p>
+          <p>
+            <a href="#" class="btn btn-primary my-2">Main call to action</a>
+            <a href="#" class="btn btn-secondary my-2">Secondary action</a>
+          </p>
+        </div>
+      </section>
+
+      <!-- About Me Section -->
+      <section class="section py-5 bg-light" id="about-me">
+        <div class="container">
+          <h2 class="text-center text-uppercase text-secondary">About Me</h2>
+          <br>
+        </div>
+      </section>
+
+      <!-- Portfolio Section -->
+      <section class="section py-5 bg-dark" id="portfolio">
+        <div class="container">
+          <h2 class="text-center text-uppercase text-secondary">Portfolio</h2>
+          <br>
+
+          <!-- Portfolio overview -->
+          <div class="row">
+
+            <!-- Simulation of All-Pay Auctions with Convex Costs -->
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img class="bd-placeholder-img card-img-top portfolio-img" src="imgs/portfolio/simulation_of_all_pay_auctions_with_convex_costs.png" alt="Simulation of All-Pay Auctions with Convex Costs Thumbnail" width="100%">
+                <div class="card-body">
+                  <p class="card-text"><b>Simulation of All-Pay Auctions with Convex Costs</b></p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary" href="#modal-simulation-of-all-pay-auctions-with-convex-costs" data-toggle="modal">View</button>
+                    </div>
+                    <small class="text-muted">Mar - May 2019</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Security Analysis of Taekwondo Sparring Gear -->
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img class="bd-placeholder-img card-img-top portfolio-img" src="imgs/portfolio/security_analysis_of_taekwondo_sparring_gear.png" alt="Security Analysis of Taekwondo Sparring Gear Thumbnail" width="100%">
+                <div class="card-body">
+                  <p class="card-text"><b>Security Analysis of Taekwondo Sparring Gear</b></p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary" href="#modal-security-analysis-of-taekwondo-sparring-gear" data-toggle="modal">View</button>
+                    </div>
+                    <small class="text-muted">Feb - May 2019</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- EZTourney -->
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img class="bd-placeholder-img card-img-top portfolio-img" src="imgs/portfolio/eztourney.png" alt="EZTourney Thumbnail" width="100%">
+                <div class="card-body">
+                  <p class="card-text"><b>EZTourney</b></p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary" href="#modal-eztourney" data-toggle="modal">View</button>
+                    </div>
+                    <small class="text-muted">Feb - Mar 2019</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Flashcard -->
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img class="bd-placeholder-img card-img-top portfolio-img" src="imgs/portfolio/flashcard.png" alt="Flashcard Thumbnail" width="100%">
+                <div class="card-body">
+                  <p class="card-text"><b>Flashcard</b> (thumbnail from Google images)</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary" href="#modal-flashcard" data-toggle="modal">View</button>
+                    </div>
+                    <small class="text-muted">Oct - Nov 2018</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- EZAlarm -->
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img class="bd-placeholder-img card-img-top portfolio-img" src="imgs/portfolio/ezalarm.png" alt="EZAlarm Thumbnail" width="100%">
+                <div class="card-body">
+                  <p class="card-text"><b>EZAlarm</b> (thumbnail from Google images)</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary" href="#modal-ezalarm" data-toggle="modal">View</button>
+                    </div>
+                    <small class="text-muted">Sep 2018</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Codeforces Companion -->
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img class="bd-placeholder-img card-img-top portfolio-img" src="imgs/portfolio/codeforces_companion.png" alt="Codeforces Companion Thumbnail" width="100%">
+                <div class="card-body">
+                  <p class="card-text"><b>Codeforces Companion</b></p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary" href="#modal-codeforces-companion" data-toggle="modal">View</button>
+                    </div>
+                    <small class="text-muted">Sep 2018</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Jewelists -->
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img class="bd-placeholder-img card-img-top portfolio-img" src="imgs/portfolio/jewelists.png" alt="Jewelists Thumbnail" width="100%">
+                <div class="card-body">
+                  <p class="card-text"><b>Jewelists</b></p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary" href="#modal-jewelists" data-toggle="modal">View</button>
+                    </div>
+                    <small class="text-muted">May 2018</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Recycling Richard -->
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img class="bd-placeholder-img card-img-top portfolio-img" src="imgs/portfolio/recycling_richard.jpg" alt="Recycling Richard Thumbnail" width="100%">
+                <div class="card-body">
+                  <p class="card-text"><b>Recycling Richard</b></p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary" href="#modal-recycling-richard" data-toggle="modal">View</button>
+                    </div>
+                    <small class="text-muted">Apr 2018</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Lagom -->
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
+                <img class="bd-placeholder-img card-img-top portfolio-img" src="imgs/portfolio/lagom.jpg" alt="Lagom Thumbnail" width="100%">
+                <div class="card-body">
+                  <p class="card-text"><b>Lagom</b></p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary" href="#modal-lagom" data-toggle="modal">View</button>
+                    </div>
+                    <small class="text-muted">Feb 2018</small>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Popup portfolio modals -->
+          <div>
+
+            <!-- Simulation of All-Pay Auctions with Convex Costs -->
+            <div class="modal" id="modal-simulation-of-all-pay-auctions-with-convex-costs" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h3 class="modal-title">Simulation of All-Pay Auctions with Convex Costs</h3>
+                  </div>
+                  <div class="modal-body">
+                    <p><b>Type:</b> Computational Simulations and Literature Review</p>
+                    <p><b>Description:</b> Modeled crowdsourcing situations as all-pay auctions and reviewed past work on approximately optimal mechanisms where bidders' utility functions are convex; ran experiments under a behavioral game theory model and analyzed how well these mechanisms perform in simulations; concluded that the prize pool and participant effort is directly correlated under a linear relationship and that the effort exerted by a bidder with respect to the number of people receiving prizes exhibits an initial increase, followed by a decrease once too many bidders began to receive prizes.</p>
+                    <p><i>Conducted for MIT course 6.853 Topics in Algorithmic Game Theory, Spring 2019.</i></p>
+                  </div>
+                  <div class="modal-footer">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.open('docs/6-853-Final-Report.pdf','_blank')">Final Report</button>
+                    </div>
+                    <button type="button" class="btn btn-sm btn-outline-secondary" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Security Analysis of Taekwondo Sparring Gear -->
+            <div class="modal" id="modal-security-analysis-of-taekwondo-sparring-gear" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h3 class="modal-title">Security Analysis of Taekwondo Sparring Gear</h3>
+                  </div>
+                  <div class="modal-body">
+                    <p><b>Type:</b> Security Analysis</p>
+                    <p><b>Description:</b> Analyzed the security of the TrueScore taekwondo sparring system with respect to its confidentiality, integrity, and availability; showed that the TrueScore system has several potential vulnerabilities in its e-sock magnets, the dongle-computer USB datastream, the memory used by the TrueScore software, and the RF communication between the hogus and controllers; described avenues for future work such as spoofing the USB dongle and conducting RF replay attacks.</p>
+                    <p><b>Role:</b> Logistics and project manager, e-sock magnet tampering, dongle-computer USB datastream decryption, memory editing.</p>
+                    <p><i>Conducted for MIT course 6.857 Computer and Network Security, Spring 2019.</i></p>
+                  </div>
+                  <div class="modal-footer">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.open('','_blank')">Final Report</button>
+                    </div>
+                    <button type="button" class="btn btn-sm btn-outline-secondary" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Flashcard -->
+            <div class="modal" id="modal-eztourney" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h3 class="modal-title">EZTourney</h3>
+                  </div>
+                  <div class="modal-body">
+                    <p><b>Type:</b> Web Application</p>
+                    <p><b>Description:</b> Software for MIT Sport Taekwondo to ease the process of tournament registration for tournament coordinators. Users register as athletes, admins, or both.</p>
+                    <p>Pages include:</p>
+                    <ul>
+                      <li>Login/Register</li>
+                      <li>Reset password</li>
+                      <li>Email verification</li>
+                      <li>Register for open tournaments</li>
+                      <li>Edit personal information</li>
+                      <li>Edit equipment sizes</li>
+                      <li>Create tournament</li>
+                      <li>Manage tournaments</li>
+                      <li>View athletes</li>
+                      <li>Manage users</li>
+                    </ul>
+                    <p><b>Built with:</b> Firebase - Mobile and web application development platform</p>
+                    <p><i>Created for MIT Sport Taekwondo.</i></p>
+                  </div>
+                  <div class="modal-footer">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.open('https://github.com/wflms20110333/EZTourney','_blank')">GitHub</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.open('https://eztourney.firebaseapp.com/','_blank')">Try it!</button>
+                    </div>
+                    <button type="button" class="btn btn-sm btn-outline-secondary" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Flashcard -->
+            <div class="modal" id="modal-flashcard" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h3 class="modal-title">Flashcard</h3>
+                  </div>
+                  <div class="modal-body">
+                    <p><b>Type:</b> Android Application</p>
+                    <p><b>Description:</b> A simple flashcard application that allows users to create custom flashcards with multiple choice selection; created flashcards are saved and can be edited or deleted. Animations and further styling are implemented.</p>
+                    <p><b>Built with:</b> Room Persistence Library - Android library</p>
+                    <p><i>Created for CodePath Mobile App Development Course, Fall 2018.</i></p>
+                  </div>
+                  <div class="modal-footer">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.open('https://github.com/wflms20110333/Flashcard','_blank')">GitHub</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.open('https://github.com/wflms20110333/Flashcard/blob/master/walk-throughs/flashcard4.gif','_blank')">Demo</button>
+                    </div>
+                    <button type="button" class="btn btn-sm btn-outline-secondary" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- EZAlarm -->
+            <div class="modal" id="modal-ezalarm" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h3 class="modal-title">EZAlarm</h3>
+                  </div>
+                  <div class="modal-body">
+                    <p><b>Type:</b> Android Application</p>
+                    <p><b>Description:</b> Sets alarms for users based on their earliest calendar event, morning routine length, and commute time calculated by Google Maps API.</p>
+                    <p><b>Role:</b> Programmed the retrieval of calendar and location data with Calendar Provider API and LocationManager API, and merged the different components of the application together.</p>
+                    <p><b>Built with:</b></p>
+                    <ul>
+                      <li>Google Maps API - Google API</li>
+                      <li>Calendar Provider API - Android API</li>
+                      <li>LocationManager API - Android API</li>
+                    </ul>
+                    <p><i>Created at HackMIT 2018.</i></p>
+                  </div>
+                  <div class="modal-footer">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.open('https://github.com/wflms20110333/EZAlarm','_blank')">GitHub</button>
+                    </div>
+                    <button type="button" class="btn btn-sm btn-outline-secondary" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Codeforces Companion -->
+            <div class="modal" id="modal-codeforces-companion" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h3 class="modal-title">Codeforces Companion</h3>
+                  </div>
+                  <div class="modal-body">
+                    <p><b>Type:</b> Chrome Extension</p>
+                    <p><b>Description:</b> Codeforces Companion (Coco) suggests programming problems near your skill level based on similarly categorized problems that you have solved in the past. Coco applies a mathematical model that we developed using binary search to determine problem difficulties and user skill based on real-life submission data gathered using the Codeforces API.</p>
+                    <p><b>Role:</b> Designed and programmed the UI/UX and implemented the AJAX requests that retrieve data from the backend server.</p>
+                    <p><b>Built with:</b></p>
+                    <ul>
+                      <li>jQuery - JavaScript library</li>
+                      <li>Requests - Python HTTP library</li>
+                      <li>pandas - Python data analysis library</li>
+                    </ul>
+                    <p><i>Created and demoed at PennApps XVIII.</i></p>
+                  </div>
+                  <div class="modal-footer">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.open('https://github.com/wflms20110333/CodeforcesCompanion','_blank')">GitHub</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.open('https://devpost.com/software/codeforces-problem-suggestion','_blank')">Devpost</button>
+                    </div>
+                    <button type="button" class="btn btn-sm btn-outline-secondary" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Jewelists -->
+            <div class="modal" id="modal-jewelists" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h3 class="modal-title">Jewelists</h3>
+                  </div>
+                  <div class="modal-body">
+                    <p><b>Type:</b> PC Game</p>
+                    <p><b>Description:</b> Jewelists is a 2-player PC game, where the goal is to gain the most points by controlling the center of the game board the longest. Games last 5 minutes.</p>
+                    <p>Watch out for monsters and projectiles! They deal damage, and when a player's health bar reaches 0, they die and respawn after an increasing amount of time. Also, kill monsters and gain jewels to build traps and walls to protect yourself and the center ground!</p>
+                    <p>Default controls documented in GitHub README; customization available in settings.</p>
+                    <p><b>Role:</b> Manifested the skeleton of the game and implemented all components using object-oriented programming.</p>
+                    <p><b>Built with:</b> LWJGL - Java game library</p>
+                    <p><i>Created for final project in Honors Computer Science 3.</i></p>
+                  </div>
+                  <div class="modal-footer">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.open('https://github.com/wflms20110333/Jewelists','_blank')">GitHub</button>
+                    </div>
+                    <button type="button" class="btn btn-sm btn-outline-secondary" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Recycling Richard -->
+            <div class="modal" id="modal-recycling-richard" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h3 class="modal-title">Recycling Richard</h3>
+                  </div>
+                  <div class="modal-body">
+                    <p><b>Type:</b> Endless Runner Game</p>
+                    <p><b>Description:</b> RecyclingRichard is a simple endless runner/platformer that helps people learn to distinguish between recyclable and non-recyclable items. Press the up arrow to jump over trash and earn points by collecting recyclable items! Points are deducted if you run into trash.</p>
+                    <p><b>Built with:</b> Phaser - HTML5 game framework</p>
+                    <p><i>Created and published at EarthxHack 2018.</i></p>
+                  </div>
+                  <div class="modal-footer">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.open('https://github.com/wflms20110333/RecyclingRichard','_blank')">GitHub</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.open('https://devpost.com/software/recycling-richard','_blank')">Devpost</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.open('https://richboy.itch.io/recycling-richard','_blank')">Try it!</button>
+                    </div>
+                    <button type="button" class="btn btn-sm btn-outline-secondary" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Lagom -->
+            <div class="modal" id="modal-lagom" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h3 class="modal-title">Lagom</h3>
+                  </div>
+                  <div class="modal-body">
+                    <p><b>Type:</b> Chrome Extension</p>
+                    <p><b>Description:</b> "Lagom" (pronounced law-gum) is the Swedish word for "just the right amount". We hope this application provides you with a way to implement this "not too little, not too much" philosophy into your daily life by helping you find a balance between work, play, and relaxation.</p>
+                    <p>This Chrome extension has three primary modes:</p>
+                    <ul>
+                      <li><i>Focus:</i> This feature allows the User to (blacklist) block certain websites on the Chrome browser for a User-chosen period of time.</li>
+                      <li><i>Break:</i> After each Focus period, the User will enter a Break period where any websites can be accessed for a User-chosen period.</li>
+                      <li><i>Unplug:</i> This feature will prohibit the User from accessing any websites on Chrome for a certain period of time. All current tabs and new tabs will be redirected to our website, and after the Unplug period is over, the tabs will return to the pages open before the Unplug period began.</li>
+                    </ul>
+                    <p><b>Role:</b> Implemented UI/UX, programmed background and content scripts.</p>
+                    <p><b>Built with:</b> jQuery - JavaScript library</p>
+                    <p><i>Created, demoed, and published at HackUTD'18.</i></p>
+                  </div>
+                  <div class="modal-footer">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.open('https://github.com/wflms20110333/Lagom','_blank')">GitHub</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.open('https://devpost.com/software/utdhack','_blank')">Devpost</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.open('https://chrome.google.com/webstore/detail/lagom/cjahhkgnmjmjagpahdpddpbkcpbeccoh?utm_source=chrome-ntp-icon','_blank')">Try it!</button>
+                    </div>
+                    <button type="button" class="btn btn-sm btn-outline-secondary" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Taekwondo Section -->
+      <section class="section py-5 bg-light" id="taekwondo">
+        <div class="container">
+          <h2 class="text-center text-uppercase text-secondary">Taekwondo</h2>
+          <br>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section class="section py-5 bg-dark" id="contact">
+        <div class="container">
+          <h2 class="text-center text-uppercase text-secondary">Contact</h2>
+          <br>
+        </div>
+        <div class="text-center">
+          <ul class="contact-ul">
+            <!-- <li><a href="https://facebook.com/elizabeth.zou.0" target="_blank"><i class="fa fa-facebook"></i></a></li> -->
+            <li class="contact-li"><a href="mailto:elizabeth.zou.0@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a></li>
+            <li class="contact-li"><a href="https://github.com/wflms20110333" target="_blank"><i class="fa fa-github"></i></a></li>
+            <li class="contact-li"><a href="https://devpost.com/wflms20110333" target="_blank"><i class="fa fa-code"></i></a></li>
+            <li class="contact-li"><a href="https://www.linkedin.com/in/elizabeth-zou/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+            <!-- <li><a href="https://www.instagram.com/wflms20110333/" target="_blank"><i class="fa fa-instagram"></i></a></li> -->
           </ul>
         </div>
+      </section>
+
+    </main>
+
+    <footer class="text-muted">
+      <div class="container">
+        <p class="float-right">
+          <a href="#">Back to top</a>
+        </p>
+        <p>Copyright &copy; 2019 Elizabeth Zou</p>
       </div>
-    </div>
-  </div>
-  <div class="navbar navbar-dark bg-dark shadow-sm">
-    <div class="container d-flex justify-content-between">
-      <a href="#" class="navbar-brand d-flex align-items-center">
-        <img src="imgs/kick.png" alt="Kicking Logo" height="20" style="margin-right: 8px">
-        <strong>Elizabeth Zou</strong>
-      </a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-    </div>
-  </div>
-</header>
+    </footer>
 
-<main role="main">
-
-  <section class="jumbotron intro">
-    <div class="container">
-      <h1 class="jumbotron-heading">Elizabeth Zou</h1>
-      <p class="lead text-muted">Hi! ~=[,,_,,]:3</p>
-      <p>
-        <a href="#" class="btn btn-primary my-2">Main call to action</a>
-        <a href="#" class="btn btn-secondary my-2">Secondary action</a>
-      </p>
-    </div>
-  </section>
-
-  <section class="section py-5 bg-light" id="about-me">
-  	<div class="container">
-  	  <h2 class="text-center text-uppercase text-secondary">About Me</h2>
-      <br>
-  	</div>
-  </section>
-
-  <section class="section py-5 bg-dark" id="portfolio">
-    <div class="container">
-      <h2 class="text-center text-uppercase text-secondary">Portfolio</h2>
-      <br>
-
-      <!-- Portfolio overview -->
-      <div class="row">
-
-        <!-- Simulation of All-Pay Auctions with Convex Costs -->
-        <div class="col-md-4">
-          <div class="card mb-4 shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-            <div class="card-body">
-              <p class="card-text">Simulation of All-Pay Auctions with Convex Costs</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary" href="#modal-simulation-of-all-pay-auctions-with-convex-costs" data-toggle="modal">View</button>
-                </div>
-                <small class="text-muted">Mar - May 2019</small>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Security Analysis of Taekwondo Sparring Gear -->
-        <div class="col-md-4">
-          <div class="card mb-4 shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-            <div class="card-body">
-              <p class="card-text">Security Analysis of Taekwondo Sparring Gear</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary" href="#modal-security-analysis-of-taekwondo-sparring-gear" data-toggle="modal">View</button>
-                </div>
-                <small class="text-muted">Feb - May 2019</small>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- EZTourney -->
-        <div class="col-md-4">
-          <div class="card mb-4 shadow-sm">
-          	<img class="bd-placeholder-img card-img-top portfolio-img" src="imgs/portfolio/eztourney.png" alt="EZTourney Thumbnail" width="100%">
-            <div class="card-body">
-              <p class="card-text">EZTourney</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary" href="#modal-eztourney" data-toggle="modal">View</button>
-                </div>
-                <small class="text-muted">Feb - Mar 2019</small>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Flashcard -->
-        <div class="col-md-4">
-          <div class="card mb-4 shadow-sm">
-            <img class="bd-placeholder-img card-img-top portfolio-img" src="imgs/portfolio/flashcard.png" alt="Flashcard Thumbnail" width="100%">
-            <div class="card-body">
-              <p class="card-text">Flashcard</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary" href="#modal-flashcard" data-toggle="modal">View</button>
-                </div>
-                <small class="text-muted">Oct - Nov 2018</small>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- EZAlarm -->
-        <div class="col-md-4">
-          <div class="card mb-4 shadow-sm">
-            <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-            <div class="card-body">
-              <p class="card-text">EZAlarm</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary" href="#modal-ezalarm" data-toggle="modal">View</button>
-                </div>
-                <small class="text-muted">Sep 2018</small>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      	<!-- Codeforces Companion -->
-        <div class="col-md-4">
-          <div class="card mb-4 shadow-sm">
-            <img class="bd-placeholder-img card-img-top portfolio-img" src="imgs/portfolio/codeforces_companion.png" alt="Codeforces Companion Thumbnail" width="100%">
-            <div class="card-body">
-              <p class="card-text">Codeforces Companion</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary" href="#modal-codeforces-companion" data-toggle="modal">View</button>
-                </div>
-                <small class="text-muted">Sep 2018</small>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Jewelists -->
-        <div class="col-md-4">
-          <div class="card mb-4 shadow-sm">
-            <img class="bd-placeholder-img card-img-top portfolio-img" src="imgs/portfolio/jewelists.png" alt="Jewelists Thumbnail" width="100%">
-            <div class="card-body">
-              <p class="card-text">Jewelists</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary" href="#modal-jewelists" data-toggle="modal">View</button>
-                </div>
-                <small class="text-muted">May 2018</small>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Recycling Richard -->
-        <div class="col-md-4">
-          <div class="card mb-4 shadow-sm">
-            <img class="bd-placeholder-img card-img-top portfolio-img" src="imgs/portfolio/recycling_richard.jpg" alt="Recycling Richard Thumbnail" width="100%">
-            <div class="card-body">
-              <p class="card-text">Recycling Richard</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary" href="#modal-recycling-richard" data-toggle="modal">View</button>
-                </div>
-                <small class="text-muted">Apr 2018</small>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Lagom -->
-        <div class="col-md-4">
-          <div class="card mb-4 shadow-sm">
-            <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c"/><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg> -->
-            <img class="bd-placeholder-img card-img-top portfolio-img" src="imgs/portfolio/lagom.jpg" alt="Lagom Thumbnail" width="100%">
-            <div class="card-body">
-              <p class="card-text">Lagom</p>
-              <div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary" href="#modal-lagom" data-toggle="modal">View</button>
-                </div>
-                <small class="text-muted">Feb 2018</small>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-      <!-- Popup portfolio modals -->
-
-      <!-- Flashcard -->
-      <div class="modal" id="modal-eztourney" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h3 class="modal-title">EZTourney</h3>
-            </div>
-            <div class="modal-body">
-              <p><b>Type:</b> Web Application</p>
-              <p><b>Description:</b> Software for MIT Sport Taekwondo to ease the process of tournament registration for tournament coordinators. Users register as athletes, admins, or both.</p>
-              <p>Pages include:</p>
-              <ul>
-              	<li>Login/Register</li>
-              	<li>Reset password</li>
-              	<li>Email verification</li>
-              	<li>Register for open tournaments</li>
-              	<li>Edit personal information</li>
-              	<li>Edit equipment sizes</li>
-              	<li>Create tournament</li>
-              	<li>Manage tournaments</li>
-              	<li>View athletes</li>
-              	<li>Manage users</li>
-              </ul>
-              <p><b>Built with:</b> Room Persistence Library - Android library</p>
-              <p><i>Created for CodePath Mobile App Development Course, Fall 2018.</i></p>
-            </div>
-            <div class="modal-footer">
-              <div class="btn-group">
-                <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.open('https://github.com/wflms20110333/Flashcard','_blank')">GitHub</button>
-                <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.open('https://github.com/wflms20110333/Flashcard/blob/master/walk-throughs/flashcard4.gif','_blank')">Demo</button>
-              </div>
-              <button type="button" class="btn btn-sm btn-outline-secondary" data-dismiss="modal">Close</button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Flashcard -->
-      <div class="modal" id="modal-flashcard" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h3 class="modal-title">Flashcard</h3>
-            </div>
-            <div class="modal-body">
-              <p><b>Type:</b> Android Application
-              <p><b>Description:</b> A simple flashcard application that allows users to create custom flashcards with multiple choice selection; created flashcards are saved and can be edited or deleted. Animations and further styling are implemented.</p>
-              <p><b>Built with:</b> Room Persistence Library - Android library</p>
-              <p><i>Created for CodePath Mobile App Development Course, Fall 2018.</i></p>
-            </div>
-            <div class="modal-footer">
-              <div class="btn-group">
-                <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.open('https://github.com/wflms20110333/Flashcard','_blank')">GitHub</button>
-                <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.open('https://github.com/wflms20110333/Flashcard/blob/master/walk-throughs/flashcard4.gif','_blank')">Demo</button>
-              </div>
-              <button type="button" class="btn btn-sm btn-outline-secondary" data-dismiss="modal">Close</button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- EZAlarm -->
-      <div class="modal" id="modal-ezalarm" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h3 class="modal-title">EZAlarm</h3>
-            </div>
-            <div class="modal-body">
-              <p><b>Type:</b> Android Application
-              <p><b>Description:</b> Sets alarms for users based on their earliest calendar event, morning routine length, and commute time calculated by Google Maps API.</p>
-              <p><b>Role:</b> Programmed the retrieval of calendar and location data with Calendar Provider API and LocationManager API, and merged the different components of the application together.</p>
-              <p><b>Built with:</b></p>
-              <ul>
-                <li>Google Maps API - Google API</li>
-                <li>Calendar Provider API - Android API</li>
-                <li>LocationManager API - Android API</li>
-              </ul>
-              <p><i>Created at HackMIT 2018.</i></p>
-            </div>
-            <div class="modal-footer">
-              <div class="btn-group">
-                <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.open('https://github.com/wflms20110333/EZAlarm','_blank')">GitHub</button>
-              </div>
-              <button type="button" class="btn btn-sm btn-outline-secondary" data-dismiss="modal">Close</button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Codeforces Companion -->
-      <div class="modal" id="modal-codeforces-companion" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h3 class="modal-title">Codeforces Companion</h3>
-            </div>
-            <div class="modal-body">
-              <p><b>Type:</b> Chrome Extension
-              <p><b>Description:</b> Codeforces Companion (Coco) suggests programming problems near your skill level based on similarly categorized problems that you have solved in the past. Coco applies a mathematical model that we developed using binary search to determine problem difficulties and user skill based on real-life submission data gathered using the Codeforces API.</p>
-              <p><b>Role:</b> Designed and programmed the UI/UX and implemented the AJAX requests that retrieve data from the backend server.</p>
-              <p><b>Built with:</b></p>
-              <ul>
-              	<li>jQuery - JavaScript library</li>
-              	<li>Requests - Python HTTP library</li>
-              	<li>pandas - Python data analysis library</li>
-              </ul>
-              <p><i>Created and demoed at PennApps XVIII.</i></p>
-            </div>
-            <div class="modal-footer">
-              <div class="btn-group">
-                <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.open('https://github.com/wflms20110333/CodeforcesCompanion','_blank')">GitHub</button>
-                <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.open('https://devpost.com/software/codeforces-problem-suggestion','_blank')">Devpost</button>
-              </div>
-              <button type="button" class="btn btn-sm btn-outline-secondary" data-dismiss="modal">Close</button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Jewelists -->
-      <div class="modal" id="modal-jewelists" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h3 class="modal-title">Jewelists</h3>
-            </div>
-            <div class="modal-body">
-              <p><b>Type:</b> PC Game
-              <p><b>Description:</b> Jewelists is a 2-player PC game, where the goal is to gain the most points by controlling the center of the game board the longest. Games last 5 minutes.</p>
-              <p>Watch out for monsters and projectiles! They deal damage, and when a player's health bar reaches 0, they die and respawn after an increasing amount of time. Also, kill monsters and gain jewels to build traps and walls to protect yourself and the center ground!</p>
-              <p>Default controls documented in GitHub README; customization available in settings.</p>
-              <p><b>Role:</b> Manifested the skeleton of the game and implemented all components using object-oriented programming.</p>
-              <p><b>Built with:</b> LWJGL - Java game library</p>
-              <p><i>Created for final project in Honors Computer Science 3.</i></p>
-            </div>
-            <div class="modal-footer">
-              <div class="btn-group">
-                <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.open('https://github.com/wflms20110333/Jewelists','_blank')">GitHub</button>
-              </div>
-              <button type="button" class="btn btn-sm btn-outline-secondary" data-dismiss="modal">Close</button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Recycling Richard -->
-      <div class="modal" id="modal-recycling-richard" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h3 class="modal-title">Recycling Richard</h3>
-            </div>
-            <div class="modal-body">
-              <p><b>Type:</b> Endless Runner Game
-              <p><b>Description:</b> RecyclingRichard is a simple endless runner/platformer that helps people learn to distinguish between recyclable and non-recyclable items. Press the up arrow to jump over trash and earn points by collecting recyclable items! Points are deducted if you run into trash.</p>
-              <p><b>Built with:</b> Phaser - HTML5 game framework</p>
-              <p><i>Created and published at EarthxHack 2018.</i></p>
-            </div>
-            <div class="modal-footer">
-              <div class="btn-group">
-                <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.open('https://github.com/wflms20110333/RecyclingRichard','_blank')">GitHub</button>
-                <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.open('https://devpost.com/software/recycling-richard','_blank')">Devpost</button>
-                <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.open('https://richboy.itch.io/recycling-richard','_blank')">Try it!</button>
-              </div>
-              <button type="button" class="btn btn-sm btn-outline-secondary" data-dismiss="modal">Close</button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Lagom -->
-      <div class="modal" id="modal-lagom" aria-hidden="true">
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h3 class="modal-title">Lagom</h3>
-            </div>
-            <div class="modal-body">
-              <p><b>Type:</b> Chrome Extension
-              <p><b>Description:</b> "Lagom" (pronounced law-gum) is the Swedish word for "just the right amount". We hope this application provides you with a way to implement this "not too little, not too much" philosophy into your daily life by helping you find a balance between work, play, and relaxation.</p>
-              <p>This Chrome extension has three primary modes:</p>
-	          <ul>
-				<li><i>Focus:</i> This feature allows the User to (blacklist) block certain websites on the Chrome browser for a User-chosen period of time.</li>
-				<li><i>Break:</i> After each Focus period, the User will enter a Break period where any websites can be accessed for a User-chosen period.</li>
-				<li><i>Unplug:</i> This feature will prohibit the User from accessing any websites on Chrome for a certain period of time. All current tabs and new tabs will be redirected to our website, and after the Unplug period is over, the tabs will return to the pages open before the Unplug period began.</li>
-	          </ul>
-              <p><b>Role:</b> Implemented UI/UX, programmed background and content scripts.</p>
-              <p><b>Built with:</b> jQuery - JavaScript library</p>
-              <p><i>Created, demoed, and published at HackUTD'18.</i></p>
-            </div>
-            <div class="modal-footer">
-              <div class="btn-group">
-                <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.open('https://github.com/wflms20110333/Lagom','_blank')">GitHub</button>
-                <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.open('https://devpost.com/software/utdhack','_blank')">Devpost</button>
-                <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.open('https://chrome.google.com/webstore/detail/lagom/cjahhkgnmjmjagpahdpddpbkcpbeccoh?utm_source=chrome-ntp-icon','_blank')">Try it!</button>
-              </div>
-              <button type="button" class="btn btn-sm btn-outline-secondary" data-dismiss="modal">Close</button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </section>
-
-  <section class="section py-5 bg-light" id="taekwondo">
-  	<div class="container">
-  	  <h2 class="text-center text-uppercase text-secondary">Taekwondo</h2>
-      <br>
-  	</div>
-  </section>
-
-  <section class="section py-5 bg-dark" id="contact">
-  	<div class="container">
-  	  <h2 class="text-center text-uppercase text-secondary">Contact</h2>
-      <br>
-  	</div>
-  	<div class="text-center">
-	  <ul class="contact-ul">
-	    <!-- <li><a href="https://facebook.com/elizabeth.zou.0" target="_blank"><i class="fa fa-facebook"></i></a></li> -->
-	    <li class="contact-li"><a href="mailto:elizabeth.zou.0@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a></li>
-	    <li class="contact-li"><a href="https://github.com/wflms20110333" target="_blank"><i class="fa fa-github"></i></a></li>
-	    <li class="contact-li"><a href="https://devpost.com/wflms20110333" target="_blank"><i class="fa fa-code"></i></a></li>
-	    <li class="contact-li"><a href="https://www.linkedin.com/in/elizabeth-zou/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-	    <!-- <li><a href="https://www.instagram.com/wflms20110333/" target="_blank"><i class="fa fa-instagram"></i></a></li> -->
-	  </ul>
-  	</div>
-  </section>
-
-</main>
-
-<footer class="text-muted">
-  <div class="container">
-    <p class="float-right">
-      <a href="#">Back to top</a>
-    </p>
-    <p>Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
-    <p>New to Bootstrap? <a href="https://getbootstrap.com/">Visit the homepage</a> or read our <a href="/docs/4.3/getting-started/introduction/">getting started guide</a>.</p>
-  </div>
-</footer>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-      <script>window.jQuery || document.write('<script src="/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')</script><script src="/bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script></body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')</script><script src="/bootstrap-4.3.1-dist/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
+  </body>
 </html>
