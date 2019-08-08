@@ -1,23 +1,46 @@
 :root {
 	--color-album-grey: #6c757d;
-	--color-portfolio-layer: rgba(0, 40, 255, 0.75);
-	--color-light-grey: #666666;
+	/*--color-portfolio-layer: rgba(0, 40, 255, 0.75);*/
+	--color-portfolio-layer: rgba(62, 0, 151, 0.75);
+	--color-light-grey: #bbbbbb;
+	--color-medium-grey: #666666;
 	--color-slate-grey: #2e2e2e;
+	--color-theme: #3e0097;
+	--font-theme: 'Proxima Nova', serif, sans-serif;
+}
+
+.section {
+	/*border-bottom: dashed 1px;*/
+}
+
+.bg-theme {
+	background-color: var(--color-theme)!important;
+}
+
+.text-theme {
+	color: var(--color-theme);
+}
+
+hr {
+	border-top: dashed 1px;
+	color: var(--color-light-grey);
 }
 
 .exp-title {
 	color: var(--color-slate-grey);
-	font-family: 'Proxima Nova', serif, sans-serif;
+	font-family: var(--font-theme);
 }
 
 .exp-comp {
-	font-family: 'Proxima Nova', serif, sans-serif;
+	font-family: var(--font-theme);
+	font-weight: bold;
+	color: var(--color-theme);
 }
 
 .exp-ul {
 	padding-left: 20px;
-	color: var(--color-light-grey);
-	font-family: 'Proxima Nova', serif, sans-serif;
+	color: var(--color-medium-grey);
+	font-family: var(--font-theme);
 }
 
 .exp-info {
@@ -26,11 +49,13 @@
 }
 
 .exp-loc {
+	font-family: var(--font-theme);
 	color: var(--color-slate-grey);
 }
 
 .exp-date {
-	color: var(--color-light-grey);
+	font-family: var(--font-theme);
+	color: var(--color-medium-grey);
 }
 
 /*
@@ -99,16 +124,19 @@ li a:hover {
 .card-title {
 	color: white;
 	font-size: 18px;
+	font-family: var(--font-theme);
 }
 
 .card-text {
 	color: white;
 	font-size: 12px;
+	font-family: var(--font-theme);
 }
 
 .card-btn {
 	color: white;
-    border-color: white;
+	border-color: white;
+	font-family: var(--font-theme);
 }
 
 .card-btn:hover {
@@ -119,6 +147,7 @@ li a:hover {
 
 .card-date {
 	color: white!important;
+	font-family: var(--font-theme);
 }
 
  /* Modal */
@@ -130,6 +159,7 @@ li a:hover {
 
 .modal-title {
 	text-decoration: underline;
+	font-size: 24px;
 }
 
 .modal-body {
@@ -142,7 +172,6 @@ li a:hover {
 	padding-top: 12px; /* default 16px */
 	justify-content: space-between;
 }
-
 
 /* Extra small devices (portrait phones, less than 576px)
 No media query for `xs` since this is the default in Bootstrap */
