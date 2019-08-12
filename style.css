@@ -8,7 +8,10 @@
 	/*--color-theme: #000fbb;*/
 	/*--color-theme: rgba(0, 15, 187, 0.75);*/
 	--color-theme: rgba(62, 0, 151, 0.9);
-	--font-theme: 'Proxima Nova', serif, sans-serif;
+	/*--font-theme: 'Proxima Nova', serif, sans-serif;*/
+	--font-theme: 'Open Sans', serif, sans-serif;
+	--card-title-lg-size: 16px;
+	--card-title-sm-size: 14px;
 }
 
 .intro-title {
@@ -41,18 +44,21 @@ hr {
 .exp-title {
 	color: var(--color-slate-grey);
 	font-family: var(--font-theme);
+	font-size: 22px;
 }
 
 .exp-comp {
 	font-family: var(--font-theme);
 	font-weight: bold;
 	color: var(--color-theme);
+	font-size: 18px;
 }
 
 .exp-ul {
 	padding-left: 20px;
 	color: var(--color-medium-grey);
 	font-family: var(--font-theme);
+	font-size: 15px;
 }
 
 .exp-info {
@@ -163,7 +169,7 @@ li a:hover {
 
 .card-title {
 	color: white;
-	font-size: 18px;
+	font-size: var(--card-title-lg-size);
 	font-family: var(--font-theme);
 }
 
@@ -242,7 +248,7 @@ No media query for `xs` since this is the default in Bootstrap */
 		height: 650px;
 	}
 	.card-title {
-		font-size: 15px;
+		font-size: var(--card-title-sm-size);
 	}
 	.card-text {
 		display: none;
@@ -257,7 +263,7 @@ No media query for `xs` since this is the default in Bootstrap */
 		height: 750px;
 	}
 	.card-title {
-		font-size: 18px;
+		font-size: var(--card-title-lg-size);
 	}
 	.card:hover .card-text {
 		display: block;
