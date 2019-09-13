@@ -1,6 +1,7 @@
 :root {
 	--color-album-grey: #6c757d;
-	--color-portfolio-layer: rgba(0, 40, 255, 0.75);
+	/*--color-portfolio-layer: rgba(0, 40, 255, 0.75);*/
+	--color-portfolio-layer: rgba(68, 68, 68, 0.8);
 	/*--color-portfolio-layer: rgba(22, 112, 196, 0.75);*/
 	/*--color-portfolio-layer: rgba(62, 0, 151, 0.75);*/
 	--color-light-grey: #bbbbbb;
