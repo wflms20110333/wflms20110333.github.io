@@ -1,13 +1,16 @@
 :root {
 	--color-album-grey: #6c757d;
-	/*--color-portfolio-layer: rgba(0, 40, 255, 0.75);*/
-	--color-portfolio-layer: rgba(62, 0, 151, 0.75);
+	--color-portfolio-layer: rgba(0, 40, 255, 0.75);
+	/*--color-portfolio-layer: rgba(22, 112, 196, 0.75);*/
+	/*--color-portfolio-layer: rgba(62, 0, 151, 0.75);*/
 	--color-light-grey: #bbbbbb;
 	--color-medium-grey: #666666;
 	--color-slate-grey: #2e2e2e;
 	/*--color-theme: #000fbb;*/
 	/*--color-theme: rgba(0, 15, 187, 0.75);*/
-	--color-theme: rgba(62, 0, 151, 0.9);
+	/*--color-theme: #1670c4;*/
+	--color-theme: #444444;
+	/*--color-theme: rgba(62, 0, 151, 0.9);*/
 	/*--font-theme: 'Proxima Nova', serif, sans-serif;*/
 	--font-theme: 'Open Sans', serif, sans-serif;
 	--card-title-lg-size: 16px;
