@@ -32,8 +32,27 @@ header {
     overflow: hidden;
 }
 
+.navbar {
+	position: fixed;
+	width: 100%;
+	z-index: 99999;
+}
+
+.navbar-brand {
+	font-size: 16px;
+}
+
+.navbar-tab {
+	font-size: 14px;
+	text-transform: uppercase;
+	padding-left: 15px;
+}
+
+.navbar-tab:hover {
+	color: black!important;
+}
+
 .banner {
-	
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -273,8 +292,12 @@ header {
 	height: 300px;
 }
 
+.navbar-tab {
+	display: none!important;
+}
+
 .banner {
-	height: calc(100% - 60px);
+	height: 100%;
 }
 
 .banner-title {
@@ -288,8 +311,11 @@ header {
 		background-color: var(--color-header-background);
 		height: 650px;
 	}
+	.navbar-tab {
+		display: block!important;
+	}
 	.banner {
-		height: calc(100% - 100px);
+		height: calc(100% - 50px);
 	}
 	.banner-title {
 		font-size: 50px;
@@ -326,9 +352,6 @@ header {
 		background: url(../imgs/header_background_1.jpg) no-repeat top right;
 		background-color: var(--color-header-background);
 		height: 750px;
-	}
-	.banner {
-		height: calc(100% - 150px);
 	}
 	.banner-title {
 		font-size: 80px;
