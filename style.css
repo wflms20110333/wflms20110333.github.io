@@ -42,14 +42,22 @@ header {
 	font-size: 16px;
 }
 
+.navbar-tab-wrapper {
+	border-radius: 4px;
+}
+
+.navbar-tab-wrapper:hover {
+	background-color: white;
+}
+
+.navbar-tab-wrapper:hover .navbar-tab {
+	color: var(--font-theme)!important;
+}
+
 .navbar-tab {
 	font-size: 14px;
 	text-transform: uppercase;
 	padding-left: 15px;
-}
-
-.navbar-tab:hover {
-	color: black!important;
 }
 
 .banner {
