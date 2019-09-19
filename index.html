@@ -90,20 +90,6 @@
     </header>
 
     <main role="main">
-
-      <!-- section class="jumbotron intro">
-        <div class="container">
-          <h1 class="jumbotron-heading intro-title text-uppercase">Elizabeth Zou</h1>
-          <p class="lead text-muted intro-txt">CS + Math @ MIT '22</p>
-          <
-          <p>
-            <a href="#" class="btn btn-primary my-2">Main call to action</a>
-            <a href="#" class="btn btn-secondary my-2">Secondary action</a>
-          </p>
-          >
-        </div>
-      </section-->
-
       <!-- About Me Section -->
       <section class="section py-5 bg-theme" id="about-me">
         <div class="container">
@@ -204,6 +190,44 @@
 
           <!-- Portfolio overview -->
           <div class="row">
+
+            <!-- Memory Eye -->
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img class="bd-placeholder-img card-img-top portfolio-img" src="imgs/portfolio/memory_eye.png" alt="Memory Eye Thumbnail" width="100%">
+                <div class="card-layer">
+                  <div class="card-details">
+                    <p class="card-title">Memory Eye</p>
+                    <p class="card-text">Uses computer vision to help users with Alzheimer's remember their prized belongings and loved ones.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary card-btn" href="#modal-memory-eye" data-toggle="modal">View</button>
+                      </div>
+                      <small class="card-date">Sep 2019</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card Game Client -->
+            <div class="col-md-4">
+              <div class="card mb-4 shadow-sm">
+                <img class="bd-placeholder-img card-img-top portfolio-img" src="imgs/portfolio/card_game_client.png" alt="Card Game Client Thumbnail" width="100%">
+                <div class="card-layer">
+                  <div class="card-details">
+                    <p class="card-title">Card Game Client</p>
+                    <p class="card-text">Real-time browser-based card game simulator.</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                      <div class="btn-group">
+                        <button type="button" class="btn btn-sm btn-outline-secondary card-btn" href="#modal-card-game-client" data-toggle="modal">View</button>
+                      </div>
+                      <small class="card-date">Sep 2019</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
 
             <!-- Simulation of All-Pay Auctions with Convex Costs -->
             <div class="col-md-4">
@@ -381,6 +405,56 @@
 
           <!-- Popup portfolio modals -->
           <div>
+
+            <!-- Memory Eye -->
+            <div class="modal" id="modal-memory-eye" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h3 class="modal-title">Memory Eye</h3>
+                  </div>
+                  <div class="modal-body">
+                    <p><b>Type:</b> iOS Application</p>
+                    <p><b>Description:</b> Memory Eye is a mobile app that uses computer vision to help users with Alzheimer's remember their prized belongings, and more importantly, their loved ones. Memory Eye allows users to write their own stories by documenting their best memories, and uses the camera as a tool to relive them.</p>
+                    <p><b>Role:</b> Worked on the computer vision backend with Microsoft Azure Custom Vision.</p>
+                    <p><i>Created and demoed at HackMIT 2019.</i></p>
+                  </div>
+                  <div class="modal-footer">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.open('https://github.com/wflms20110333/MemoryEye','_blank')">GitHub</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.open('https://devpost.com/software/memoryeye','_blank')">Devpost</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.open('https://docs.google.com/presentation/d/11Kkcm6O1lim7beNgdQ8PVV_IGG-cCEItJLIeZJo55yg/edit?usp=sharing','_blank')">Presentation</button>
+                    </div>
+                    <button type="button" class="btn btn-sm btn-outline-secondary" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card Game Client -->
+            <div class="modal" id="modal-card-game-client" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h3 class="modal-title">Card Game Client</h3>
+                  </div>
+                  <div class="modal-body">
+                    <p><b>Type:</b> Web Application</p>
+                    <p><b>Description:</b> Play any card game with a standard 54-card deck remotely by transmitting interactions between all participating players in real time; players can create a room or join an existing room with a central card deck. Has a deal function, reset game function, and built-in chat to facilitate easy interaction between users.</p>
+                    <p><b>Role:</b> Designed and programmed the UI/UX; created the landing page and chat function; hosted the backend server on Google Cloud Platform.</p>
+                    <p><i>Created and demoed at PennApps XX.</i></p>
+                  </div>
+                  <div class="modal-footer">
+                    <div class="btn-group">
+                      <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.open('https://github.com/wflms20110333/CardGameClient','_blank')">GitHub</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.open('https://devpost.com/software/card-game-client','_blank')">Devpost</button>
+                      <button type="button" class="btn btn-sm btn-outline-secondary" onclick="window.open('https://docs.google.com/presentation/d/14l1-jkMfDBeRZ8H-gHlRFV8CMa_ai1_ZZat5Ec86Iic/edit?usp=sharing','_blank')">Presentation</button>
+                    </div>
+                    <button type="button" class="btn btn-sm btn-outline-secondary" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
 
             <!-- Simulation of All-Pay Auctions with Convex Costs -->
             <div class="modal" id="modal-simulation-of-all-pay-auctions-with-convex-costs" aria-hidden="true">
