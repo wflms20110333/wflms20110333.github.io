@@ -40,6 +40,8 @@
     <link href="album.css" rel="stylesheet">
     <link href="font-awesome.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
+
+    <link rel="shortcut icon" href="imgs/favicon_blue.png">
   </head>
   <body>
     <header>
@@ -66,10 +68,13 @@
       
       <div class="navbar navbar-dark bg-theme shadow-sm">
         <div class="container d-flex justify-content-between">
-          <a href="#" class="navbar-brand d-flex align-items-center">
-            <img src="imgs/kick.png" alt="Kicking Logo" height="20" style="margin-right: 8px">
-            <strong>Elizabeth Zou</strong>
-          </a>
+          <div class="navbar-tab-wrapper" id="home-tab-wrapper">
+            <a href="#" class="navbar-brand d-flex align-items-center" id="home-tab">
+              <img class="logo" id="logo-white" src="imgs/kick.png" alt="Kicking Logo" height="20">
+              <img class="logo" id="logo-theme" src="imgs/kick_444444.png" alt="Kicking Logo" height="20">
+              <strong>Elizabeth Zou</strong>
+            </a>
+          </div>
           <div class="d-flex align-items-right">
             <div class="navbar-tab-wrapper">
               <a href="#about-me" class="navbar-brand d-flex align-items-center navbar-tab">About Me</a>
@@ -79,6 +84,12 @@
             </div>
             <div class="navbar-tab-wrapper">
               <a href="#portfolio" class="navbar-brand d-flex align-items-center navbar-tab">Portfolio</a>
+            </div>
+            <div class="navbar-tab-wrapper">
+              <a href="#academics-and-awards" class="navbar-brand d-flex align-items-center navbar-tab">Academics & Awards</a>
+            </div>
+            <div class="navbar-tab-wrapper">
+              <a href="#activities" class="navbar-brand d-flex align-items-center navbar-tab">Activities</a>
             </div>
             <div class="navbar-tab-wrapper">
               <a href="#taekwondo" class="navbar-brand d-flex align-items-center navbar-tab">Taekwondo</a>
@@ -114,10 +125,7 @@
                 Hi! I'm a sophomore studying computer science and mathematics at MIT. In my free time I enjoy competitive programming, attending hackathons, and training/competing in taekwondo.
               </p>
               <p class="profile-txt">
-                I'm still working on updating and improving this website but feel free to take a look anyways :)
-              </p>
-              <p class="profile-txt">
-                You can download my resume <a href="docs/Resume.pdf" target="_blank">here</a>.
+                Sections that recruiters would be interested in are placed above sections for my personal journey. You can also download my resume <a href="docs/Resume.pdf" target="_blank">here</a>.
               </p>
             </div>
           </div>
@@ -143,7 +151,7 @@
               </ul>
               <hr class="d-none d-sm-block">
             </div>
-            <div class="col-md-3 col-sm-4">
+            <div class="col-xl-2 col-md-3 col-sm-4">
               <div class="exp-info">
                 <div class="exp-loc"><i class="fa fa-map-marker"></i> San Diego, CA</div>
                 <div class="exp-date"><i class="fa fa-calendar"></i> May - Aug 2019</div>
@@ -163,7 +171,7 @@
               </ul>
               <hr class="d-none d-sm-block">
             </div>
-            <div class="col-md-3 col-sm-4">
+            <div class="col-xl-2 col-md-3 col-sm-4">
               <div class="exp-info">
                 <div class="exp-loc"><i class="fa fa-map-marker"></i> Cambridge, MA</div>
                 <div class="exp-date"><i class="fa fa-calendar"></i> Jan 2019</div>
@@ -180,7 +188,7 @@
                 <li>Facilitated daily review of software development & engineering activities</li>
               </ul>
             </div>
-            <div class="col-md-3 col-sm-4">
+            <div class="col-xl-2 col-md-3 col-sm-4">
               <div class="exp-info">
                 <div class="exp-loc"><i class="fa fa-map-marker"></i> Grand Prairie, TX</div>
                 <div class="exp-date"><i class="fa fa-calendar"></i> June - Aug 2019</div>
@@ -717,6 +725,121 @@
             </div>
 
           </div>
+
+        </div>
+      </section>
+
+      <!-- Academics & Awards Section -->
+      <section class="section py-5 bg-light" id="academics-and-awards">
+        <div class="container">
+          <h2 class="text-center text-uppercase text-theme">Academics & Awards</h2>
+          <br>
+
+          <div class="row justify-content-center">
+
+            <!-- Relevant Coursework -->
+            <h4 class="col-xl-7 col-lg-8 col-md-10 col-12 exp-title">Relevant Coursework</h4><br><br>
+
+            <!-- Fall 2019 -->
+            <div class="col-lg-6 col-md-8 col-10">
+              <ul class="exp-ul">
+                <li>6.004 Computation Structures (Fall 2019)</li>
+                <li>6.009 Fundamentals of Programming (Fall 2019)</li>
+                <li>6.867 (Grad) Machine Learning (Fall 2019)</li>
+              </ul>
+            </div>
+            <div class="col-xl-1 col-2">
+              <ul class="grades exp-ul">
+                <li>N/A</li>
+                <li>N/A</li>
+                <li>N/A</li>
+              </ul>
+            </div>
+            <hr class="coursework-hr col-xl-7 col-lg-8 col-md-10 col-12">
+
+            <!-- Spring 2019 -->
+            <div class="col-lg-6 col-md-8 col-10">
+              <ul class="exp-ul">
+                <li>6.036 Introduction to Machine Learning (Spring 2019)</li>
+                <li>6.853 (Grad) Topics in Algorithmic Game Theory (Spring 2019)</li>
+                <li>6.857 (Grad) Computer and Network Security (Spring 2019)</li>
+                <li>18.600 Probability and Random Variables (Spring 2019)</li>
+                <li>CMS.301 Introduction to Game Design Methods (Spring 2019)</li>
+              </ul>
+            </div>
+            <div class="col-xl-1 col-2">
+              <ul class="grades exp-ul">
+                <li>A</li>
+                <li>A</li>
+                <li>A</li>
+                <li>A</li>
+                <li>A</li>
+              </ul>
+            </div>
+            <hr class="coursework-hr col-xl-7 col-lg-8 col-md-10 col-12">
+
+            <!-- Fall 2018 -->
+            <div class="col-lg-6 col-md-8 col-10">
+              <ul class="exp-ul">
+                <li>6.046 Design and Analysis of Algorithms (Fall 2018)</li>
+                <li>18.700 Linear Algebra (Fall 2018)</li>
+              </ul>
+            </div>
+            <div class="col-xl-1 col-2">
+              <ul class="grades exp-ul">
+                <li>P</li>
+                <li>P</li>
+              </ul>
+            </div>
+
+            <br><br><br>
+
+            <!-- Part Time Jobs -->
+            <h4 class="col-xl-7 col-lg-8 col-md-10 col-12 exp-title">Part Time Jobs</h4><br><br>
+
+            <div class="col-xl-7 col-lg-8 col-md-10 col-12">
+              <ul class="exp-ul">
+                <li>6.036 Introduction to Machine Learning -- LAB ASSISTANT (Fall 2019)</li>
+                <li>6.046 Design and Analysis of Algorithms -- GRADER (Spring 2019, Fall 2019)</li>
+                <li>18.600 Probability and Random Variables -- NOTETAKER (Spring 2019)</li>
+                <li>18.700 Linear Algebra -- NOTETAKER (Fall 2018)</li>
+              </ul>
+            </div>
+
+            <br><br><br>
+
+            <!-- Awards -->
+            <h4 class="col-xl-7 col-lg-8 col-md-10 col-12 exp-title">Awards</h4><br><br>
+
+            <div class="col-lg-6 col-md-8 col-10">
+              <ul class="exp-ul">
+                <li>Battlecode (AI competition) Finalist (Top 16 in the world)</li>
+                <li>National Winner of Lockheed Martin Code Quest</li>
+                <li>8th Place out of 8500 high school teams in picoCTF</li>
+                <li>Winner of Hewlett-Packard CodeWars</li>
+                <li>USA Computing Olympiad Platinum Division</li>
+              </ul>
+            </div>
+            <div class="col-xl-1 col-2">
+              <ul class="grades exp-ul">
+                <li>2019</li>
+                <li>2017</li>
+                <li>2017</li>
+                <li>2017</li>
+                <li>2017</li>
+              </ul>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Activities Section -->
+      <section class="section py-5 bg-theme" id="activities">
+        <div class="container">
+          <h2 class="text-center text-uppercase text-white">Activities</h2>
+          <br>
 
         </div>
       </section>
